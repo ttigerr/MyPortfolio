@@ -1,8 +1,8 @@
 import React from 'react'
 
-function About() {
+function Work() {
   return (
     <div>Work</div> 
   )
 }
-export default About
+export default Work

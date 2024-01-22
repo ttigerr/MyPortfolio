@@ -1,8 +1,8 @@
 import React from 'react'
 
-function About() {
+function Navbar() {
   return (
     <div>About</div> 
   )
 }
-export default About
+export default Navbar
