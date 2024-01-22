@@ -1,8 +1,5 @@
-import React from 'react'
-
-function Skills() {
+export function Skills() {
   return (
     <div>Skills</div> 
   )
 }
-export default Skills
