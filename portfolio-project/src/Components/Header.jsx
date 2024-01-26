@@ -3,16 +3,17 @@ import {
   FaBars,
   FaTimes,
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { Fragment } from 'react'
+
 
 const Header = () => {
 
   // function for the mobile menu
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  // const onClick = () => {
+  //   console.log("This button clicked");
+  // };
 
   return (
     <header className='fixed w-full h-[90px] flex justify-between items-center px-14 bg-[#0a192f] text-gray-300'>
