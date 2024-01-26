@@ -1,4 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* max-width: 1000; */
+  background-color: #0a192f;
+  box-sizing: border-box;
+}
+
 .App {
+  margin: 0;
   text-align: center;
 }
 
@@ -6,6 +15,29 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+nav {
+  display: flex;
+  
+}
+
+li {
+
+  margin-left: 1.5rem;
+}
+
+/* li::after {
+  content: '';
+  height: 0.20rem;
+  background-color: darkslateblue;
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+  width: 2.5rem;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -38,3 +70,4 @@
 }
 
 /* Add Tailwind libralies */
+
